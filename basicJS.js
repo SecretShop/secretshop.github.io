@@ -11,11 +11,13 @@ $(function(){
 var TrackScroll = 0;
 $(window).scroll(function () {
     TrackScroll = $(this).scrollTop();
-    if (TrackScroll >= 1) {
+    if (TrackScroll >= 1 && TrackScroll < 2000) {
         $("#header > img").css({height: TrackScroll+400});
         $("#header > img").css({marginTop: TrackScroll});
     }
-    
+    else {
+        $("#header > img").css({height: 400});
+    }
 });
     
 
