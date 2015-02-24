@@ -15,6 +15,7 @@ $(window).scroll(function () {
         $("#header > img").css({height: TrackScroll+400});
         $("#header > img").css({marginTop: TrackScroll});
     }
+    
 });
     
 
