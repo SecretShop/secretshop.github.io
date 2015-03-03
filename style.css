@@ -1,16 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
+
 
 ul {
  margin-left: 20px
-}
-
-#center {
-    width: 900px;
-    margin: 0 auto;
 }
 
 <!--@font-face {
@@ -31,47 +22,15 @@ div {
     text-align: center;
 }
 
+#bmo {
+    background-image: url(BMO.png);
+    background-size:cover;
+    background-position:center center;
+}
 
 body {
     background-image: url(background.jpg);
-    background-color: black;
+    background-size:cover;
+    background-position:center center;
 }
-
-
-
-#showcase {
-    width: 600;
-    height: 700px;
-    background-color: grey;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-
-
-
-#headerBck {
-    background-color: black;
-    opacity: .5;
-}
-
-#imgBox {
- float: left;
- width: 600px;
- height: 350px;
- background-color: green;
-}
-
-#VNav {
- float: left;
-}
-
-#VNav  > ul > li{
- list-style: none;
- border: 1px solid black;
-}
-
-huehue
-
-
 

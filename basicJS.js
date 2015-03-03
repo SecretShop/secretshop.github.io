@@ -6,7 +6,7 @@ $(function(){
     $("#footer").load("templates/footer.html");
 });
     
-        
+/*        
 // Scrolling Effect
 var TrackScroll = 0;
 $(window).scroll(function () {
@@ -46,3 +46,5 @@ $(window).resize(function(){
     clearTimeout(doit);
     doit = setTimeout(resizedw, 100);
 });
+
+*/
