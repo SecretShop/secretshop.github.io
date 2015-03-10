@@ -12,6 +12,11 @@ ul {
 div {
     font-family: myFirstFont;
 } -->
+#top {
+    background-image: url(rainbow.jpg);
+    background-size:cover;
+    background-position:center center;
+}
 
 #header {
     margin-top: 20px;
