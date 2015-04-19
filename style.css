@@ -1,7 +1,12 @@
-
-
-ul {
- margin-left: 20px
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 <!--@font-face {
@@ -12,14 +17,9 @@ ul {
 div {
     font-family: myFirstFont;
 } -->
-#top {
-    background-image: url(rainbow.jpg);
-    background-size:cover;
-    background-position:center center;
-}
 
 #header {
-    margin-top: 20px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -27,15 +27,61 @@ div {
     text-align: center;
 }
 
-#bmo {
-    background-image: url(BMO.png);
-    background-size:cover;
-    background-position:center center;
-}
 
 body {
-    background-image: url(background.jpg);
-    background-size:cover;
-    background-position:center center;
+    background-color: black;
 }
+
+#footer {
+ text-align: center;
+ background-color: white;
+}
+
+#slideshow {
+    margin-bottom: 20px;
+}
+
+#index_content {
+  background-color: darkred;
+  color: white;
+}
+
+
+#headerBck {
+    background-color: black;
+    opacity: .5;
+}
+
+#imgBox {
+ padding: 10px;
+ width: 590px;
+ height: 350px;
+ background-color:darkslategray;
+}
+
+#imgBox_nav {
+ float: left;
+ width: 100px;
+}
+
+
+
+#ind_img {
+}
+
+#ind_but{
+}
+
+#VNav {
+ float: left;
+}
+
+#VNav  > ul > li{
+ list-style: none;
+ border: 1px solid black;
+}
+
+.btn { }
+
+
 
