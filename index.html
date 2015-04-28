@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
- <link rel="stylesheet" href="style.css">
- <script src="basicJS.js"></script>
- <script src="index.js"></script>
- 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel='stylesheet' href='style.css'/>
+  <script> 
+  $(function(){
+    $("#header").load("templates/header.html");
+    $("#nav_top").load("templates/nav_top.html");
+    $("#footer").load("templates/footer.html");
+  });
+  </script>
 </head>
 <body>
-  <div class="container"> 
-   <div id="header"> </div>
+  <div id="container"> 
+    <div id="header"> </div>
+      <!--Navigation Top-->
+      <div id="nav">
+        <div id="nav_top"> </div>
+      </div>
+      <!--Content Start-->
+      <div id="content">
+        <table>
+        <!--Left Bar-->
+        <td id="bar">  </td>
+        <!--BODY OF CONTENT STARTS HERE-->
+        <td>
+          <div id="writing">
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <h3> ANSI/SPRI ES-1 Compliant Testing Services and Equipment for the Building Construction Industry</h3> 
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+          </div>
+        </td>
+        <!--Right Bar-->
+        <td id="bar"> </td>
+        </table>
+      </div>
+    <div id="footer"> </div>
   </div>
-  <div class="row"> 
-   <br><br><br><br>
-   <br><br><br><br>
-   <br><br><br><br>
-   <br><br><br><br>
-  </div>
- 
- <div class="container-fluid">  
-  <div class="row">
-   <!--BODY OF CONTENT STARTS HERE-->
-   <div class="col-md-1"> </div>
-   <div class="col-md-7" >
-    <div class="center" id="slideshow"> </div>
-   </div>
-   <div class="col-md-3"> 
-    <div class="well">
-     <H1>Name</H1>
-     <p>desc</p>
-    </div>
-    <div class="well">
-     <H1>Name</H1>
-     <p>desc</p>
-    </div>
-   </div>
-   <div class="col-md-1"> </div>
-  </div>
- </div>
- 
- <br><br><br>
- <br><br><br>
- 
-<div id="footer"> </div>
- 
-
 </body>
 </html>
