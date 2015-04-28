@@ -1,8 +1,8 @@
  @font-face {
     font-family: magneto;
     src: url("Fonts/magneto.ttf");
-    font-family: kelvinized;
-    src: url("Fonts/kelvinized.ttf");
+    font-family: boltonitalic;
+    src: url("Fonts/boltonitalic.ttf");
 }
 
 
@@ -22,7 +22,7 @@ h4 {
 
 body {    
     background-color: rgb(223, 223, 225);
-    font-family: magneto;
+    font-family: boltonitalic;
 }
 
 #container{ 
@@ -54,7 +54,7 @@ body {
     padding-left: 0px;
     width: 906px;
     float: left;
-    font-family: kelvinized;
+    font-family: magneto;
 }
 
 #nav ul {
@@ -73,7 +73,7 @@ body {
     font-weight: 700;
     text-decoration: none; 
     color: rgb(223, 223, 225);
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px 5px 10px;
     margin: 0;
     border-right: 1px solid white;
 }
