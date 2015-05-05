@@ -6,8 +6,13 @@
   margin-top: 20px;
 }
 
+.panel-heading {
+  
+}
+
 h2 {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h3 {
