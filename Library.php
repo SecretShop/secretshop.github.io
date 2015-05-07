@@ -25,7 +25,7 @@
     <div class="row text-center">
       <div class="col-sm-2"> </div>
       <div class="col-sm-8"> 
-        <a class="btn btn-default btn-block" href="index.html" role="button">Back to Program Store</a>
+        <a class="btn btn-default btn-block" href="index.php" role="button">Back to Program Store</a>
       </div>
       <div class="col-sm-2"> </div>
     </div> 
@@ -36,34 +36,39 @@
       <div class="col-md-12">
         <table class="table table-striped">
           <tr>
+            <th>Start</th>
             <th>Title</th>
-            <th>Developer</th>
-            <th>Publisher</th>
-            <th>Avg Rating</th>
+            <th>Tags</th>
+            <th>Time Used</th>
+            <th>Review</th>
           </tr>
           <tr>
+            <td><a class="btn btn-success btn-xs" href="#" role="button" id="btn-start">-----></a></td>
             <td>~~~~~~~~~~~~</td>
             <td>~~~~~~~~~~~~</td>
-            <td>~~~~~~~~~~~~</td>
-            <td>~/10</td>
+            <td>Hrs: 00.00</td>
+            <td class="success">DONE</td>
           </tr>
           <tr>
+            <td><a class="btn btn-success btn-xs" href="#" role="button" id="btn-start">-----></a></td>
             <td>~~~~~~~~~~~~</td>
             <td>~~~~~~~~~~~~</td>
-            <td>~~~~~~~~~~~~</td>
-            <td>~/10</td>
+            <td>Hrs: 00.00</td>
+            <td class="danger">Write One</td>
           </tr>
           <tr>
+            <td><a class="btn btn-success btn-xs" href="#" role="button" id="btn-start">-----></a></td>
             <td>~~~~~~~~~~~~</td>
             <td>~~~~~~~~~~~~</td>
-            <td>~~~~~~~~~~~~</td>
-            <td>~/10</td>
+            <td>Hrs: 00.00</td>
+            <td class="success">DONE</td>
           </tr>
           <tr>
+            <td><a class="btn btn-success btn-xs" href="#" role="button" id="btn-start">-----></a></td>
             <td>~~~~~~~~~~~~</td>
             <td>~~~~~~~~~~~~</td>
-            <td>~~~~~~~~~~~~</td>
-            <td>~/10</td>
+            <td>Hrs: 00.00</td>
+            <td class="danger">Write One</td>
           </tr>
 
         </table>        
