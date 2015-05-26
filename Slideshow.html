@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style_Slideshow.css">
+		<link rel="stylesheet" href="Scripts/simple-slideshow-styles.css">
+		
+	</head>
+	<body>
+		<div class="box">
+			<div class="bss-slides mine" tabindex="2">
+				<figure>
+						<img src="Images/Jellyfish.jpg" width="100%" />
+						<figcaption> <a href="http://www.google.com">Google</a></figcaption> 
+				</figure>
+					<figure>
+						<img src="Images/Koala.jpg" width="100%" />
+						<figcaption>Caption goes here</figcaption> 
+				</figure>
+					<figure>
+						<img src="Images/Tulips.jpg" width="100%" />
+						<figcaption>Caption goes here</figcaption> 
+				</figure>
+			</div>
+		</div>	
+			
+		<script src="Scripts/better-simple-slideshow.js"></script>
+		<script>
+			var opts = {
+    		auto : false,
+    		fullScreen : true,
+    		swipe : false
+			};
+  		makeBSS('.mine',opts);
+		</script>
+		
+	</body>
+</html>

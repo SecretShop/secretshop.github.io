@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+	<link rel="stylesheet" href="style_Gallery.css" type="text/css">
+	
+<title>help me</title>
+</head> 
+	<script>
+		imageArray = new Array();
+		imageArray[0] = "Images/Tulips.jpg";
+		imageArray[1] = "Images/Jellyfish.jpg";
+		imageArray[2] = "Images/Koala.jpg";
+
+		ArrayLength = imageArray.length;
+		imageNum = 0;
+
+		function nextImage(image_src) {
+				imageNum++;
+				imageNum % ArrayLength;
+				this.src = imageArray[imageNum];
+		}
+	</script>
+<body>	
+
+	<div class="gallery">
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+	
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+		<a tabindex="1" class="gal"><img src="images/Tulips.jpg"></a>
+	
+	</div>
+	
+	<br> <br> <br> <br>
+		
+</body>
+</html>
