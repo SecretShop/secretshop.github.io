@@ -1,16 +1,16 @@
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/nav-top.css">
 		<link rel="stylesheet" href="css/style_index.css">
+		<script> 
+			$(function() {
+				$("#nav-top").load("tmp/nav-top.html"); 
+			}); 
+		</script>
 	</head>
 	<body>
-		<div class="nav-top">
-			<ul>
-				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="Gallery.html">Gallery</a></li>
-				<li><a href="Slideshow.html"> Slideshow</a></li>
-				<li><a href="#"> Coming Soon! </a></li>
-			</ul>
-		</div>
+		<div id="nav-top"></div>
 		
 		<h1 class="title">Zachary Herberger's Website</h1>
 		<hr>

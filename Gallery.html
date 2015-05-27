@@ -1,10 +1,19 @@
 <!DOCTYPE html> 
 <html>
 <head> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/nav-top.css">
 	<link rel="stylesheet" href="css/style_Gallery.css" type="text/css">
+	<script> 
+		$(function() {
+			$("#nav-top").load("tmp/nav-top.html"); 
+		}); 
+	</script>
 	
 <title>help me</title>
-</head> 
+</head>
+	<div id="nav-top"> </div>
+	
 	<script>
 		imageArray = new Array();
 		imageArray[0] = "img/Tulips.jpg";
