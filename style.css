@@ -96,6 +96,7 @@ body {
     background-repeat: repeat-y;
     width: 80px;
     vertical-align: top;
+    opacity: 1.0;
 }
 
 #writing {
@@ -104,7 +105,7 @@ body {
     vertical-align: top;
     float: left;
     background-color: silver;
-    opacity: .8;
+    opacity: .7;
  
 }
 
