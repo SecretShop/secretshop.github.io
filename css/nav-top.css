@@ -45,6 +45,7 @@ body {
 		position: relative;
 		background-color: #887395; 
 		border-top: 2px solid black;
+		z-index: 4;
 	}
 		#nav-top ul ul li a:hover {
 			background-color: #504358;
@@ -62,10 +63,5 @@ body {
 	background-color: #887395;
 }
 
-#nav-top a:active {
- background-color: #a6bfa0;
- color: #444e41;
- cursor: default;
-}
 
 
