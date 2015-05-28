@@ -48,7 +48,7 @@ body {
 		border-top: 1px solid #444e41;
 		font-size: 1em;
 		right: 2px;
-		z-index: 2;
+		z-index: 3;
 		
 	}
 		#nav-top ul ul li a:hover {
