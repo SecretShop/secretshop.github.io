@@ -23,6 +23,7 @@ body {
 #nav-top li {
 	font-family: 'Oswald', sans-serif;
 	display: inline-block;
+	position: relative;
 	margin-right: -4px;
 	width: 180px;
 	border-bottom: none;
@@ -44,7 +45,11 @@ body {
 		float: none;
 		position: relative;
 		background-color: #887395; 
-		border-top: 2px solid black;
+		border-top: 1px solid #444e41;
+		font-size: 1em;
+		right: 2px;
+		z-index: 2;
+		
 	}
 		#nav-top ul ul li a:hover {
 			background-color: #504358;
