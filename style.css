@@ -1,0 +1,153 @@
+ @font-face {
+    font-family: magneto;
+    src: url("Fonts/magneto.ttf");
+    font-family: boltonitalic;
+    src: url("Fonts/boltonitalic.ttf");
+}
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p{ margin: 2px; }
+
+h4 {
+    margin: 0px;
+    color: crimson; 
+}
+
+body {    
+    background-color: rgb(223, 223, 225);
+    background-image: url(images/background_Dark.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: boltonitalic;
+}
+
+#container{ 
+}
+
+ body > *  {
+    margin: auto;
+    width: 906px;
+    display: block;
+    overflow: auto;
+  } 
+
+#header {
+    background: transparent;
+    width: 906px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: black;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0px;
+}
+
+#nav {
+    background-color: rgb(73, 73, 74);
+    padding-left: 0px;
+    width: 906px;
+    float: left;
+    font-family: magneto;
+}
+
+#nav ul {
+    margin: 0;
+    padding 0;
+}
+
+#nav li {
+    display: inline;
+    margin: 0;
+}
+
+#nav li a {
+    display: block;
+    float: left;
+    font-weight: 700;
+    text-decoration: none; 
+    color: rgb(223, 223, 225);
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    border-right: 1px solid white;
+}
+
+#nav li a:hover { background-color: rgb(0, 0, 0); }
+
+#content {
+    background-color: transparent;
+    float: left;
+    width: 906px;
+    margin: 0;
+}
+
+#bar {
+    background: rgb(235, 131, 65);
+    background-image: url("images/PinstripeBoarder.png"); 
+    background-repeat: repeat-y;
+    width: 80px;
+    vertical-align: top;
+    opacity: 1.0;
+}
+
+#writing {
+    margin: 0;
+    padding: 0px 20px 20px 20px;
+    vertical-align: top;
+    float: left;
+    background-color: silver;
+    opacity: .7;
+ 
+}
+
+#writing table td{
+    vertical-align: top;   
+}
+
+#writing table td:nth-child(2){
+    font-size: 10px;
+    text-align: center;
+    margin: 0
+}
+
+#content h3 { margin-bottom: 0; }
+
+#footer {
+    background-color:  rgb(73, 73, 74);
+    width: 906px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    color: rgb(223, 223, 225);
+}
+
+#footer p {
+    margin: 3px;   
+}
+
+#tiny_footer p { 
+    text-align: right; 
+    font-size: 10px; 
+    margin:0;
+    padding-right: 20px;
+}
+
+#about1 {
+    width: 210px;
+    margin-bottom: 220px;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+        
