@@ -20,7 +20,7 @@ body {
 	border-radius: 0px 0px 0px 0px; <!--TL  TR  BR  BL-->
 }
 
-#nav-top li {
+#nav-top ul li {
 	font-family: 'Oswald', sans-serif;
 	display: inline-block;
 	position: relative;
@@ -63,14 +63,6 @@ body {
   transition: .3s background-color;
 }
 
-#nav-top a:hover {
+#nav-top li:hover {
 	background-color: #887395;
 }
-
-#nav-top a:active {
- background-color: #a6bfa0;
- color: #444e41;
- cursor: default;
-}
-
-
