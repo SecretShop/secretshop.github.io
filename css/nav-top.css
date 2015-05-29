@@ -10,7 +10,7 @@ body {
 #nav-top {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #nav-top ul{
@@ -34,7 +34,6 @@ body {
 
 #nav-top ul ul {
 	display: none;
-	
 }
 
 #nav-top ul li:hover > ul {
