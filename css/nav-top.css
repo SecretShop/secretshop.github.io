@@ -46,12 +46,13 @@ body {
 		background-color: #887395; 
 		border-top: 1px solid #444e41;
 		font-size: 1em;
-		right: 2px;
+		right: 0px;
 		z-index: 3;
 		
 	}
 		#nav-top ul ul li a:hover {
 			background-color: #504358;
+			transition: .3s background-color;
 		}
 
 
@@ -59,9 +60,9 @@ body {
 	text-decoration: none;
   color: #fff;
   display: block;
-  transition: .3s background-color;
 }
 
 #nav-top li:hover {
 	background-color: #887395;
+	transition: .3s background-color;
 }
