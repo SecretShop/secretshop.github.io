@@ -1,0 +1,41 @@
+
+
+ul {
+ margin-left: 20px
+}
+
+<!--@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+div {
+    font-family: myFirstFont;
+} -->
+#top {
+    background-image: url(rainbow.jpg);
+    background-size:cover;
+    background-position:center center;
+}
+
+#header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#header > img {
+    text-align: center;
+}
+
+#bmo {
+    background-image: url(BMO.png);
+    background-size:cover;
+    background-position:center center;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-position:center center;
+}
+
